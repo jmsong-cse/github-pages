@@ -15,12 +15,12 @@ b = "5";
 document.write(a+b + "<br>");
 
 for(let size=10; size<=35; size+=5) { // 5씩 증가
-document.write("<div ");
-document.write("onmouseover = \"this.style.color='red'\" ");
-document.write("onmouseout = \"this.style.color='black'\" ");
-document.write("style='font-size:" + size + "px'>");
-document.write(size + "px");
-document.write("</div>");
+	document.write("<div ");
+	document.write("onmouseover = \"this.style.color='red'\" ");
+	document.write("onmouseout = \"this.style.color='black'\" ");
+	document.write("style='font-size:" + size + "px'>");
+	document.write(size + "px");
+	document.write("</div>");
 }
 </script>
 <hr>
